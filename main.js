@@ -63,7 +63,7 @@ newele.className = 'btn-warning'
 const o9 = document.querySelector("#bbb");
 const bb = document.querySelector("#bb");
 
-o9.addEventListener("click", () => {
+o9.addEventListener("click",  () => {
   if (newinput.value.length) {
     todos.push(newinput.value);
     newinput.value = "";
